@@ -1,1 +1,56 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Style for the Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: white;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
